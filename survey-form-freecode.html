@@ -41,12 +41,18 @@
         <legend>Choose an option:</legend>
 
         <label for="radio1">
-          <input type="radio" id="radio1" name="choice" value="option1" checked>
+          <input
+            type="radio"
+            id="radio1"
+            name="choice"
+            value="option1"
+            checked
+          />
           Option 1
         </label>
 
         <label for="radio2">
-          <input type="radio" id="radio2" name="choice" value="option2">
+          <input type="radio" id="radio2" name="choice" value="option2" />
           Option 2
         </label>
       </fieldset>
@@ -54,15 +60,32 @@
         <legend>Select your interests:</legend>
 
         <label for="checkbox1">
-          <input type="checkbox" id="checkbox1" name="interests" value="coding">
+          <input
+            type="checkbox"
+            id="checkbox1"
+            name="interests"
+            value="coding"
+          />
           Coding
         </label>
 
         <label for="checkbox2">
-          <input type="checkbox" id="checkbox2" name="interests" value="music">
+          <input
+            type="checkbox"
+            id="checkbox2"
+            name="interests"
+            value="music"
+          />
           Music
         </label>
       </fieldset>
+      <label for="comments">Additional comments:</label>
+      <textarea
+        id="comments"
+        name="comments"
+        placeholder="Your feedback here..."
+      ></textarea>
+      <input id="submit" type="submit" value="Submit" />
     </form>
   </body>
 </html>
